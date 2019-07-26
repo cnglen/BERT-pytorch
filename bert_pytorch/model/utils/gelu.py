@@ -1,6 +1,11 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+"""desc"""
+
+import math
 import torch.nn as nn
 import torch
-import math
 
 
 class GELU(nn.Module):
